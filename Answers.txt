@@ -1,0 +1,115 @@
+1. What is difference in Overloading and Over riding?
+Overloading: 
+Overloading has the property of same class, same name but different parameters. Overloading has compile time polymorphism. The errors are easy to fix.
+
+Overriding:
+Overriding has the property in the super class where the name and parameters are the same. Overriding has the runtime polymorphism. The errors are difficult to fix.
+
+2. If both the functions are statis can we over ride?
+No, we cannot override both functions in static, because method overriding exhibits the property of dynamic binding(objects) at runtime whereas static methods 
+exhibit the property of static binding(Type of information) at compile time. 
+This means static methods is solved before objects are created. Hence, it is not possible to override both functions in static.
+
+3. Diffference bew Final , Finally and Finalize?
+
+Final is the keyword which is used to apply restrictions on a class, method or variable.
+Finally is a block in Java Exception Handling which executes the important code even if an exception occurs.
+Finalize performs the cleaning activities with respect to the object before its destruction.
+
+4. What are marker Interfaces?
+Maker interface is called as an empty interface(no field or methods). A marker interface is also called a tagging interface.
+
+5. What is Singleton class?
+A singleton class is a class that can have only one object at a time.
+
+6. What is the underlying Data structure for Arraylist and Linkedlist?
+When it comes to ArrayList it is a resizable-array implementation, whereas LinkedList is a Double linked list implementation.
+
+7. What is hash collitition?
+Hash collision is a collision which occurs in between the hash values that occurs when a hashing algorithm produces the same hash value for two different data.
+
+8. What are lambda Expressions?
+Lambda expressions are used for writing anonymous methods. They do not need a name. They can be implemented right in the body of a method.
+
+9. Whats is functional interface?
+A functional interface is an interface that contains only one abstract method. They can have only one functionality to exhibit.
+
+10. What are optional classes in Java 8?
+It can help in writing a code without using too many null checks. By using Optional, we can specify alternate values to return or alternate code to run.
+
+11. Whats is factory design pattern and Adapter and difference bew them
+
+Factory design pattern
+Factory design pattern is a method. It can be overridden. 
+
+Abstract factory is an object. It creates a base class with abstract methods defining methods for the objects that should be created. 
+
+12. What are Solid principles?
+SOLID is set of design principles. It stands for five key design principles- single responsibility principle, 
+open-closed principle, 
+Liskov substitution principle, 
+interface segregation principle,
+dependency inversion principle
+
+13. What does @component and @scan do in Sprinboot annaotation?
+@component - Spring will scan our application for classes annotated with @Component.
+@scan - We use the scan annotation along with the @Configuration annotation to specify the packages that we want to be scanned.
+
+14. Whats is the Diference bew JPA , Hibernate and ORM?
+
+Java Persistence API (JPA) defines the management of relational data in the Java applications. It is just a specification. It is defined in javax.persistence package.
+Hibernate is an Object-Relational Mapping (ORM) tool which is used to save the state of Java object into the database. It is one of the most frequently used JPA implementation. It is defined in org.hibernate package.
+ORM - Object-relational mapping (ORM) is a technique that creates a layer between the language and the database.
+
+15. What is indexing in Database?
+It is a data structure technique which is used to quickly locate and access the data in a database. Indexes are created using a few database columns.
+
+16. What are 4 types of Drivers in Jdbc?
+1. JDBC-ODBC bridge.
+2. partial Java driver.
+3. pure Java driver for database middleware.
+4. pure Java driver for direct-to-database.
+5. highly-functional drivers with superior performance.
+
+17. What is difrence bew @component and @bean and @service?
+@component - If any class is annotated with @Component it will be automatically detect by using classpath scan.
+@bean - It works only when class is also annotated with @Configuration
+@service - @Service annotation is used with classes that provide some business functionalities.It is used to mark the class as a service provider.
+
+18. What is difference bew SOAP and restful services techinically?
+REST can make use of the SOAP protocol but SOAP cannot make use of the REST.
+SOAP - use only the XML data for the exchange of the information only in the message format.
+REST - Has the choice of implementation to which Media-Type to use like JSON or Plain-text.
+
+19.Difference in POST and PUT.
+In POST if you make attemts to retry any request N times, it will result in different resources with different URLs created on server.
+In PUT method, if retry is given multiple time there will exist a single request modification similarly.
+
+20.IS react uni directional or Bi directional?
+React has unidirectional data flow.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
